@@ -1,0 +1,1 @@
+BtnNewCard = document.querySelector('#BtnNewCard');
