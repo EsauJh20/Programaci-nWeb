@@ -1,0 +1,82 @@
+body{
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+.title{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0 20px;
+}
+
+.btn{
+    background-color: gray;
+    padding: 7px 20px;
+    font-size: 10px;
+    border-radius: 5px ;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:haver{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.502);
+}
+
+.btn-blue{
+background-color: rgb(0, 119, 255);
+}
+
+.btn-red{
+    background-color: rgb(237, 43, 43);
+}
+
+.table{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.534);
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.jugardor-area, .computadora-area{
+    border: 2px solid yellow;
+    min-height: 250px;
+    padding: 15px;  
+}
+
+.jugador-texto, .computadora-texto{
+margin-bottom: 10px;
+}
+
+.jugador-cartas, .computadora-cartas{
+border: 2px dashed yellow;
+border-radius: 3px;
+min-height: 180px;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 120px;
+position: relative;
+}
+
+.jugador-cartas img, .computadora-cartas img{
+    width: 95%;
+    margin-right: -90px;
+    position: absolute;
+    left: 90px;
+}
